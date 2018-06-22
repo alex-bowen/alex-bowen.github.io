@@ -10,28 +10,34 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
 
+    <link rel="stylesheet" type="text/css" href="style.css">
+
     <title>About Me</title>
 </head>
 
-<body>
+<body class="bg">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">Alex Bowen</a>
+        <!-- can't seem to get it to collapse -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light text-dark">
+            <div class="container border-dark">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/name.png" style="width:220px;">
+                </a>
                 <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon">
                 </button> -->
 
                 <div class="navbar navbar-right" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav navbar-right">
+                    <ul class="navbar-nav nav-right">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">About
+
                             </a>
                         </li>
                         <li class="nav-item active">
-                            <span class="sr-only">(current)</span>
                             <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            <span class="sr-only">(current)</span>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
@@ -40,29 +46,89 @@
                 </div>
             </div>
         </nav>
-
     </header>
-    <br>
-    <br>
 
+    <br>
+    <br>
 
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
-                <h1>Portfolio</h1>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-header">
-                        Contact Me
+                <div class="card border-light">
+
+                    <div class="card-header bg-light border-dark">
+                        <h1>Portfolio</h1>
                     </div>
                     <div class="card-body">
-                        Here's some info.
+                        <div class="row">
+
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        One of three columns
+                                    </div>
+                                    <div class="col-sm-4">
+                                        One of three columns
+                                    </div>
+                                    <div class="col-sm-4">
+                                        One of three columns
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        One of three columns
+                                    </div>
+                                    <div class="col-sm-4">
+                                        One of three columns
+                                    </div>
+                                    <div class="col-sm-4">
+                                        One of three columns
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Github // LinkedIn // Stack links and logos -->
+            <div class="col-sm-4">
+                <div class="card border-light">
+                    <div class="card-header bg-light border-dark">
+                        <strong>Connect with me!</strong>
+                    </div>
+                    <div class="card-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <a href="https://github.com/alex-bowen" target="_blank">
+                                        <img src="images/github.png" alt="github icon" style="width:70px">
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <a href="https://www.linkedin.com/in/alex-bowen/" target="_blank">
+                                        <img src="images/linkedin.png" alt="linkedin icon" style="width:70px">
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <a href="https://stackoverflow.com/users/9761128/alex-bowen?tab=profile" target="_blank">
+                                        <img src="images/stack.png" alt="Stack Overflow icon" style="width:70px">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+
+
 
     <!-- javascript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

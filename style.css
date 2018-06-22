@@ -1,0 +1,11 @@
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("images/shattered-island.gif");
+
+.img-pad {
+    padding: 2px;
+}
