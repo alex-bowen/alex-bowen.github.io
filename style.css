@@ -10,3 +10,21 @@ body, html {
     padding: 2px;
 }
 
+.card {
+    margin-bottom: 20px;
+}
+
+/* .portfolio-item {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    margin-bottom: 20px;
+} */
+
+@media (max-width: 991px){
+    .col-margin{
+        margin: auto;
+    }  
+}
