@@ -40,9 +40,16 @@ h1, h2, h3 {
 
 .connect-buttons {
     margin: auto;
-    width: 100px;
+    padding: 0;
 }
 
 a {
     color: rgb(116, 2, 116);
+}
+
+@media only screen and (max-width: 600px) {
+    .connect-buttons{
+        width: 90px;
+        padding: 0;
+        margin: auto;
 }
