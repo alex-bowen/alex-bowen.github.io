@@ -27,6 +27,7 @@ z
 
 .card-img-top {
     filter:grayscale(100%);
+    min-height: 180px;
 }
 
 .card-img-top:hover {
